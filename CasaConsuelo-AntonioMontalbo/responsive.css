@@ -1,0 +1,198 @@
+@media screen and (max-width: 768px) {
+
+    /* CABECERA */
+
+    .cabecera-contenido {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .cabecera-contenido h1 {
+        font-size: 45px;
+        margin-left: 0;
+    }
+
+    .logo-cabecera {
+        width: 150px;
+    }
+
+    .boton-admin {
+        margin-left: 0;
+    }
+
+    /* MENÚ */
+
+    .menu-principal {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    /* INDEX */
+
+    .index-principal {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "texto"
+        "imagen";
+        text-align: center;
+    }
+
+    /* GALERÍAS */
+
+    .galeria-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .galeria-grid img {
+        height: auto;
+    }
+
+    .galeria-baños img {
+        height: auto;
+    }
+
+    .menu-galeria ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* SITIOS */
+
+    .sitio {
+        grid-template-columns: 1fr;
+    }
+
+    /* CONTACTO */
+
+    .contacto-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* MAPA */
+
+    .mapa {
+        width: 100%;
+    }
+
+    .mapa img {
+        width: 100%;
+    }
+
+    /* DATOS */
+
+    .datos-contacto {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* TITULOS */
+
+    .datos-contacto h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    /* TEXTOS */
+
+    .datos-contacto p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    /* FORMULARIOS */
+
+    .formulario-contacto,
+    .formulario-reseña {
+        width: 100%;
+        max-width: 500px;
+        margin: 30px auto;
+    }
+
+    /* INPUTS */
+
+    .formulario-contacto input,
+    .formulario-contacto textarea,
+    .formulario-reseña input,
+    .formulario-reseña textarea {
+        width: 100%;
+    }
+    
+    /* RESERVAS */
+
+	.contenedor-reservas {
+    	grid-template-columns: 1fr;
+	}
+
+	.col-formulario,
+	.col-imagen {
+    	width: 100%;
+	}
+
+.col-imagen img {
+
+    width: 100%;
+
+    height: auto;
+}
+    /* CALENDARIO */
+
+    .contenedor-dias {
+        gap: 5px;
+    }
+
+    .dia {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* LOGIN */
+
+    .login-admin {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    /* PANEL ADMIN */
+
+    .panel-admin {
+        width: 90%;
+        max-width: 500px;
+        padding: 20px;
+    }
+
+    /* CONTENEDOR ADMIN */
+
+    .contenedor-admin {
+        width: 95%;
+    }
+
+    /* TABLAS */
+
+    .tabla-admin {
+        display: block;
+        overflow-x: auto;
+    }
+
+    /* GALERÍA ADMIN */
+
+    .galeria-admin {
+        justify-content: center;
+    }
+
+    .imagen-admin {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        width: 90%;
+        text-align: center;
+        font-size: 14px;
+    }
+}
